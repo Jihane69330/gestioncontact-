@@ -23,6 +23,8 @@ namespace WinFormsApp5
             {
                 dataTable.Rows.Add(personne[0], personne[1]);
             }
+
+            //commentaire de test
             // Liaison de la DataGridView au DataTable 
             //dataGridView1.DataSource = dataTable;
 
@@ -49,11 +51,11 @@ namespace WinFormsApp5
 {
     MessageBox.Show($"nom : {Nom}\nEmail : {Email}", "Informations Utilisateur");
     }
- 
- 
-     }
- 
-        private void label3_TextChanged(object sender, EventArgs e)
+
+
+}
+
+private void label3_TextChanged(object sender, EventArgs e)
 {
 
     if (!txtEmail.Text.Contains("@"))

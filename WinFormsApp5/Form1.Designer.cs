@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            txtNom = new Label();
-            txtEmail = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
             btnAfficheresultat = new Button();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label4 = new Label();
+            label3 = new Label();
+            txtEmail = new Label();
+            txtNom = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,39 +50,34 @@
             groupBox1.Controls.Add(txtNom);
             groupBox1.Location = new Point(134, 83);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(495, 265);
+            groupBox1.Size = new Size(513, 265);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Contact";
             groupBox1.Enter += groupBox1_Enter;
             // 
-            // txtNom
+            // btnAfficheresultat
             // 
-            txtNom.AutoSize = true;
-            txtNom.Location = new Point(74, 63);
-            txtNom.Name = "txtNom";
-            txtNom.Size = new Size(42, 20);
-            txtNom.TabIndex = 0;
-            txtNom.Text = "Nom";
+            btnAfficheresultat.Location = new Point(134, 191);
+            btnAfficheresultat.Name = "btnAfficheresultat";
+            btnAfficheresultat.Size = new Size(138, 29);
+            btnAfficheresultat.TabIndex = 6;
+            btnAfficheresultat.Text = "Afficher le résultat";
+            btnAfficheresultat.UseVisualStyleBackColor = true;
             // 
-            // txtEmail
+            // textBox2
             // 
-            txtEmail.AutoSize = true;
-            txtEmail.Location = new Point(74, 113);
-            txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(46, 20);
-            txtEmail.TabIndex = 1;
-            txtEmail.Text = "Email";
+            textBox2.Location = new Point(134, 113);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(111, 27);
+            textBox2.TabIndex = 5;
             // 
-            // label3
+            // textBox1
             // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.FromArgb(192, 0, 0);
-            label3.Location = new Point(302, 63);
-            label3.Name = "label3";
-            label3.Size = new Size(192, 20);
-            label3.TabIndex = 2;
-            label3.Text = "Le champs doit être remplit";
+            textBox1.Location = new Point(134, 56);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(111, 27);
+            textBox1.TabIndex = 4;
             // 
             // label4
             // 
@@ -94,28 +89,33 @@
             label4.TabIndex = 3;
             label4.Text = "Le champs doit être remplit";
             // 
-            // textBox1
+            // label3
             // 
-            textBox1.Location = new Point(134, 56);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(111, 27);
-            textBox1.TabIndex = 4;
+            label3.AutoSize = true;
+            label3.ForeColor = Color.FromArgb(192, 0, 0);
+            label3.Location = new Point(302, 63);
+            label3.Name = "label3";
+            label3.Size = new Size(192, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Le champs doit être remplit";
             // 
-            // textBox2
+            // txtEmail
             // 
-            textBox2.Location = new Point(134, 113);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(111, 27);
-            textBox2.TabIndex = 5;
+            txtEmail.AutoSize = true;
+            txtEmail.Location = new Point(74, 113);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(46, 20);
+            txtEmail.TabIndex = 1;
+            txtEmail.Text = "Email";
             // 
-            // btnAfficheresultat
+            // txtNom
             // 
-            btnAfficheresultat.Location = new Point(134, 191);
-            btnAfficheresultat.Name = "btnAfficheresultat";
-            btnAfficheresultat.Size = new Size(138, 29);
-            btnAfficheresultat.TabIndex = 6;
-            btnAfficheresultat.Text = "Afficher le résultat";
-            btnAfficheresultat.UseVisualStyleBackColor = true;
+            txtNom.AutoSize = true;
+            txtNom.Location = new Point(74, 63);
+            txtNom.Name = "txtNom";
+            txtNom.Size = new Size(42, 20);
+            txtNom.TabIndex = 0;
+            txtNom.Text = "Nom";
             // 
             // Form1
             // 
